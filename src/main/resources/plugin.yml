@@ -1,0 +1,15 @@
+name: VanillaSkyblock
+version: '1.0.1-Release'
+main: net.ciyuan.vanillaSkyblock.VanillaSkyblock
+api-version: '1.21'
+prefix: VSKB
+load: STARTUP
+authors: [ 辞愿 ]
+description: Vanilla Skyblock Server Plugin.
+
+commands:
+  getastraea:
+    aliases: [ ]
+    description: 插件主命令
+    permission: vskb.getastraea
+    permission-message: §c明知自己没权限还来搞 ( ͡° ͜ʖ ͡°)
